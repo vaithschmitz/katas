@@ -1,7 +1,6 @@
 function divisibleBy(numbers, divisor){
-    return numbers.filter(number => (number % divisor === 0))
+    return numbers.filter(n => n % divisor === 0)
   }
-
 
 
 // https://www.codewars.com/kata/find-numbers-which-are-divisible-by-given-number/train/javascript
