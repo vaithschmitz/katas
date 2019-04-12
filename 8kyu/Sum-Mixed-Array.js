@@ -1,10 +1,7 @@
 function sumMix(x){
-    y = x.map(function(x) {
-      return (typeof x) == 'string' ? parseInt(x) : x
-    });
-    
-    const r = (acc, cur) => acc + cur
-    return y.reduce(r)
+    y = x.map((x) => {return (typeof x) == 'string' ? parseInt(x) : x})
+    const r = (acc, red) => acc + red
+    return y.reduce(r)   
   }
 
 
