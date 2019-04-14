@@ -2,8 +2,6 @@ var isSquare = function(n){
     return Number.isInteger(Math.sqrt(n)) ? true : false
   }
 
-
-
 //   https://www.codewars.com/kata/youre-a-square/train/javascript
 
 //   A square of squares
