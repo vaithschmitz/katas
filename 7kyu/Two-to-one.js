@@ -2,6 +2,7 @@ function longest(s1, s2) {
     let fin = []
     s1.split('').concat(s2.split('')).forEach(x => !fin.includes(x) ? fin.push(x) : x)
     return fin.sort().join('')
+
   }
 
 
